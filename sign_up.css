@@ -1,0 +1,110 @@
+body{
+	background: #0073CF;
+	padding: 0;
+	margin: 0;
+	padding-top: 60px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container{
+	position: static;
+	margin: 0 auto;
+	width: 400px;
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 2px;
+}
+
+.logo{
+    display: block;
+    height: 35px;
+    width: auto;
+    margin: 0 auto 30px;
+}
+
+h1{
+	text-align:center;
+	font-weight: 400;
+	color: #565656;
+	margin: 0 auto 40px;
+	font-size: 40px;
+	line-height: 38px;
+}
+
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+    background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 20px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+button[type="submit"]:focus {
+    border-color: #E7E7E7;
+    box-shadow: none;
+}
+
+button[type="submit"] {
+    color: white;
+    background: #15CD72;
+    border: 0;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+}
+
+button:hover[type="submit"] {
+    background-color: #0CB863;
+}
+
+.container p {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    color: #999;
+}
+
+.container a {
+    text-decoration: none;
+    color: #999;
+    border-bottom: 1px solid #bbb;
+}
+
+.container a:hover {
+    border-color: #999;
+    color: #777;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+    font-weight: 600;
+    border: 0;
+    padding: 0;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover { color: #E7F1F9 }
+
+.footer p { margin-bottom: 40px }

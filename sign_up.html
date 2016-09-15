@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta name="viewport" content="width=device-width, initial scale=1.0">
+		<meta charset="UTF-8">
+		<meta name="keywords" content="AnalogSea, Sign up, AnalogSea sign up">
+		<meta name="description" content="Sign up page for AnalogSea">
+		<meta name="author" content="Steven M. Uyeda">
+	<title>AnalogSea sign up page</title>
+			<link href="sign_up.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+	<img class="logo" src="logo.png" alt="AnalogSea logo">
+		<form class="container" action="/signup" method='post'>
+			<h1>Sign Up</h1>
+				<label for="email">Email</label>
+					<input placeholder="foo@bar.com" type="email" name="user_email" id="user_email" required/>
+				<label for="password">Password</label>
+					<input placeholder="1234passw0rd" type="password" name="user_password" id="user_password" required/>
+			<button type="submit">Sign Up</button>
+			<br>
+			<p>
+				<a href="/forgot_password">Forgot Password?</a>
+			</p>
+		</form>
+	<div class="footer">
+		<p>Already have an account?
+			<a href="/login">Log in</a>
+		</p>
+	</div>
+</body>
+</html>
